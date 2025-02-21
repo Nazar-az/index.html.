@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мебель для дома</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Мебель в Хату</h1>
+        <nav>
+            <a href="#about">О нас</a>
+            <a href="#products">Каталог</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Стильная и качественная мебель для вашего дома</h2>
+        <p>Выбирайте лучшее – комфорт и качество по доступной цене.</p>
+        <a href="#products" class="btn">Смотреть каталог</a>
+    </section>
+
+    <section id="products">
+        <h2>Наши товары</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Диван">
+                <h3>Диван «Комфорт»</h3>
+                <p>Удобный и стильный диван для вашей гостиной.</p>
+                <span class="price">12 000 грн</span>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Стол">
+                <h3>Обеденный стол</h3>
+                <p>Прочный деревянный стол для всей семьи.</p>
+                <span class="price">8 500 грн</span>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Кровать">
+                <h3>Кровать «Люкс»</h3>
+                <p>Двуспальная кровать с ортопедическим матрасом.</p>
+                <span class="price">15 000 грн</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы предлагаем качественную мебель по доступным ценам. Производим только из лучших материалов и с любовью к комфорту.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Email: contact@mebelvkhatu.com</p>
+        <p>Телефон: +38 (067) 123-45-67</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Мебель в Хату. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
